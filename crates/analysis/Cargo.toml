@@ -1,0 +1,10 @@
+[package]
+name = "analysis"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+storage = { path = "../storage" }
+scanner = { path = "../scanner" }
+rustfft = "6"

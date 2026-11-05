@@ -1,0 +1,16 @@
+[package]
+name = "home-awareness"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+scanner = { path = "../scanner" }
+audio = { path = "../audio" }
+analysis = { path = "../analysis" }
+storage = { path = "../storage" }
+eframe = "0.31"
+egui_extras = "0.31"
+chrono = { version = "0.4", default-features = false, features = ["clock"] }
+notify-rust = "4"
+rfd = { version = "0.15", default-features = false, features = ["xdg-portal", "async-std"] }

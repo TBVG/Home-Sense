@@ -1,0 +1,10 @@
+[package]
+name = "audio"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+cpal = "0.15"
+rustfft = "6"
+thiserror = "1"
